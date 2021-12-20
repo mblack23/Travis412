@@ -10,7 +10,6 @@ public class SimpleCalculatorTest {
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
-		assertEquals(calc.sub(1, 1), 0);
-		assertEquals(calc.multi(1, 1), 1);
+
 	}
 }
